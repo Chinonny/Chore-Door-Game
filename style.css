@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: serif, cursive;
+    box-sizing: border-box;
+    background-color: #eee;
+}
+.header {
+    background-color: #eee;
+    position: fixed;
+    top: 1%;
+    left: 50%;
+    width: 98%;
+    transform: translateX(-50%);
+    padding: 10px 30px;
+    text-align: center;
+    border: 1px solid #f7f7f7;
+    border-radius: 10px;
+    box-shadow: -7px -7px 17px #eee,
+    7px 7px 17px rgba(70, 70, 70, 0.15);
+    box-sizing: border-box;
+
+}
+.header img {
+    border: 1px solid #eee;
+    border-radius: 10px;
+    padding: .5rem;
+    box-shadow:inset 7px 7px 17px #F2784B,
+    -7px -7px 17px rgba(70, 70, 70, 0.15);
+    cursor: pointer;
+}
+.sticky {
+    top: 0;
+}
+.title-row {
+    margin-top: 7rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.title-row img {
+    color: #E08283;
+}
+.instructions-title {
+    display: inline;
+    margin: 10px;
+    color: #1f3f5f;
+    font-weight: bold;
+    font-family: cursive;
+}
+.table-class {
+    margin-top: 0 auto;
+    width: 40%;
+    border: 1px solid #eee;
+    box-shadow:inset 7px 7px 17px #F2784B,
+    -7px -7px 17px rgba(70, 70, 70, 0.15);
+    border-radius: 10px;
+    padding: 30px;
+    font-size: 22px;
+    margin-left: 30%;
+    color: #1f3f5f;
+    margin-bottom: 2.5rem;
+}
+.instructions-number {
+  padding-right: 20px;
+  font-family: 'Work Sans';
+  font-size: 30px;
+}
+.instructions-text {
+    padding: 10px;
+    font-family: 'Work Sans';
+ 
+}
+.door-row {
+    width: 27%;
+    margin-left: 36%;
+    padding: 10px;
+    border: 1px solid #F2784B;
+    border-radius: 10px;
+    box-shadow:inset 7px 7px 17px#F2784B,
+    -7px -7px 17px rgba(70, 70, 70, 0.15);
+    background-color: #F2784B;
+    cursor: pointer;
+}
+.door-frame {
+    padding: 14px;
+}
+.start-row {
+    margin: auto;
+    background-color: transparent;
+    width: 120px;
+    height: 43px;
+    padding-top: 18px;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #1f3f5f;
+    border: 1px solid #F2784B;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.start-row:hover {
+    background-color: #F2784B;
+}
+
+@media screen and (max-width: 789px) {
+    .table-class {
+        width: 60%;
+        margin-left: 20%;
+        font-size: 20px;
+    }
+    .door-row {
+        width: 57%;
+        margin-left: 20%;
+    }
+    .door-frame {
+        padding: 10px;
+    }
+    
+}
